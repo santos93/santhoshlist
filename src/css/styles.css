@@ -390,6 +390,10 @@ body {
 /*---------------------------- End of common CSS --------------------*/
 *::after, *::before {box-sizing: border-box;}
 
+#infinite {display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #050505;}
+.infinite_load {position: absolute; top: 30%; left: 0; right: 0; text-align: center;}
+.loader {display: inline-block; margin: 20px; width: 250px; height: 250px; vertical-align: middle;}
+
 header {box-shadow: 0 0 10px 0 rgb(0, 4, 255);}
 #container {position: relative; z-index: 100; padding: 25px;}
 .title-nav {display: flex; flex-flow: row nowrap; justify-content: space-between;}
